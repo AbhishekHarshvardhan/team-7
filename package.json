@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./bin/www",
     "heroku-postbuild": "npm i --only=dev --prefix client && npm i --prefix client && npm run build --prefix client && npm i --only=dev"
   },
   "dependencies": {
