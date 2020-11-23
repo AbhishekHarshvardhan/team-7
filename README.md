@@ -1,4 +1,9 @@
 # team--7
 # Link - https://snakes-team7.herokuapp.com/
 
-A multiplayer snakes game
+ZigZag  - A multiplayer snakes game
+
+Start Comamad
+
+Rules:
+
