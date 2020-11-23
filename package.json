@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "",
-    "heroku-postbuild": "npm i --only=dev --prefix client && npm i --prefix client && npm run build --prefix client && npm i --only=dev && npm i"
+    "heroku-postbuild": "npm i --only=dev --prefix client && npm i --prefix client && npm run build --prefix client && npm i --only=dev"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
