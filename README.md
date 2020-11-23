@@ -4,8 +4,8 @@
 # ZigZag  - A multiplayer snakes game
 
 # Start Command:
-    npm heroku-postbuild
-    npm start
+    npm run heroku-postbuild
+    npm run start
 
 # Rules:
     
