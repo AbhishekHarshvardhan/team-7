@@ -1,5 +1,5 @@
 # team--7
-# Mockups - https://app.diagrams.net/#G1jNEym6HiVraQmhnm57PXmkTmSrdmeqg2
+# Mockups and flow - https://drive.google.com/file/d/1jNEym6HiVraQmhnm57PXmkTmSrdmeqg2/view?usp=sharing
 # Link - https://snakes-team7.herokuapp.com/
 
 # ZigZag  - A multiplayer snakes game
