@@ -1,11 +1,19 @@
+import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Greet from './components/Greet';
+import GameLayout from './layouts/GameLayout';
+import Home from './views/Home';
 
 function App() {
   return (
-    <div>
-      <Greet name='stranger' />
-    </div>
+    <Switch>
+      <Route path='/game'>
+        <GameLayout />
+      </Route>
+      <Route path='/' exact>
+        <Home />
+      </Route>
+      <Redirect from='*' to='/' />
+    </Switch>
   );
 }
 
